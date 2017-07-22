@@ -1,0 +1,2 @@
+grunt serve
+http://www.agiletrailblazers.com/blog/how-to-start-an-angularjs-application
