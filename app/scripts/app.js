@@ -29,6 +29,9 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/dragu', {
+         template: '<first></first>'
+      })
       .otherwise({
         redirectTo: '/'
       });
