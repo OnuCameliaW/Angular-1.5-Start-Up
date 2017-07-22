@@ -8,10 +8,6 @@
  * Controller of the angAppApp
  */
 angular.module('angAppApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope) {
+   $scope.hello = "Salut";
   });
